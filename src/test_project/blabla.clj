@@ -3,11 +3,6 @@
 (require '[clojure.string :as str])
 
 ; FUNCTIONS
-(defn AllPlus?
-  [p_array]
-  (let [equals_plus (fn [x] (= x \+))]
-  (= (count p_array) (count (filter equals_plus p_array)))))
-
 (defn replace_array
   [p_array flip_array idx]
   (if (= (count flip_array) 0)
@@ -25,10 +20,11 @@
         flip_array (vec (map flip batch_array))]
     (replace_array P flip_array idx)))
 
+; allplus should only be check if no +'s were flipped. Which you kind of know right?
 (defn flipping_pancakes
   [P F flips]
   (let [idx (.indexOf P \-)]
-  (if (AllPlus? P)
+  (if (= idx -1)
     (str flips)
     (if (> (+ idx F) (count P))
       (str "IMPOSSIBLE")
@@ -75,7 +71,7 @@
   (str/split string_unit #" "))
 
 
-(def input_vector (map split_by_space (subvec (read_per_line "input_files/A-small-practice.in") 1)))
+(def input_vector (map split_by_space (subvec (read_per_line "input_files/A-large-practice.in") 1)))
 (def output_vector (map solver input_vector))
 
 (def output_data (map str
