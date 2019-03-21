@@ -3,23 +3,6 @@
 (require '[clojure.string :as str])
 
 ; FUNCTIONS
-; get first index of minus from p_array
-(defn get_pancake_batch
-  [p_array init f]
-  (subvec p_array init (+ init f)))
-
-(defn flip
-  [pancake]
-  (if (= \- pancake) \+ \-))
-
-(defn flip_pancake_batch
-  [p_array]
-  (vec (map flip p_array)))
-
-(defn get_minus_index
-  [p_array]
-  (.indexOf p_array \-))
-
 (defn AllPlus?
   [p_array]
   (let [equals_plus (fn [x] (= x \+))]
@@ -36,28 +19,25 @@
                    (+ idx 1))))
 
 (defn one_pancake_flip
-  [P F]
-  (let [p_array (vec P)
-        idx (get_minus_index p_array)
-        batch_array (get_pancake_batch p_array idx F)
-        flip_array (flip_pancake_batch batch_array)]
-    (replace_array p_array flip_array idx)))
+  [P F idx]
+  (let [flip (fn [x] (if (= \- x) \+ \-))
+        batch_array (subvec P idx (+ idx F))
+        flip_array (vec (map flip batch_array))]
+    (replace_array P flip_array idx)))
 
 (defn flipping_pancakes
   [P F flips]
-  (let [p_array (vec P)
-        idx (get_minus_index p_array)
-        F (Integer. F)]
-  (if (AllPlus? p_array)
+  (let [idx (.indexOf P \-)]
+  (if (AllPlus? P)
     (str flips)
-    (if (> (+ idx F) (count p_array))
+    (if (> (+ idx F) (count P))
       (str "IMPOSSIBLE")
-      (flipping_pancakes (one_pancake_flip P F) F (inc flips))))))
+      (flipping_pancakes (one_pancake_flip P F idx) F (inc flips))))))
 ;
 (defn solver
   [vector_unit]
-  (let [P (first vector_unit)
-        F (second vector_unit)
+  (let [P (vec (first vector_unit))
+        F (Integer. (second vector_unit))
         ](flipping_pancakes P F 0)))
 
 ; CHECK FOR TEST CASES
@@ -95,14 +75,13 @@
   (str/split string_unit #" "))
 
 
-(def input_vector (map split_by_space (subvec (read_per_line "input_files/A-large-practice.in") 1)))
+(def input_vector (map split_by_space (subvec (read_per_line "input_files/A-small-practice.in") 1)))
 (def output_vector (map solver input_vector))
 
 (def output_data (map str
                       (repeat (count input_vector) "case #")
                       (range 1 ( + (count input_vector) 1))
                       (repeat (count input_vector) ": ")
-                      output_vector
-                      ))
+                      output_vector))
 
 (write_lines "input_files/large_output.txt" output_data)
