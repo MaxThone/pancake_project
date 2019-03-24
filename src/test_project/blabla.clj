@@ -64,7 +64,7 @@
 ; READ FROM FILE, WRITE SOLUTION TO FILE
 (def input_vector
   (let [split_by_space (fn [x] (str/split x #" "))]
-  (map split_by_space (subvec (read_per_line "input_files/A-small-practice.in") 1))))
+  (map split_by_space (subvec (read_per_line "input_files/qual_2017/A-small-practice.in") 1))))
 
 (def output_vector (map solver input_vector))
 
@@ -73,3 +73,5 @@
                       (range 1 ( + (count input_vector) 1))
                       (repeat (count input_vector) ": ")
                       output_vector))
+
+(write_lines "input_files/qual_2017/large_output.txt" output_data)
