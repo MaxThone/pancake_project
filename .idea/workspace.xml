@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c9f2b6-a3a5-4a26-919a-873e03779fea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/doc/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input_files/large_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input_files/large_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test_project/round_A_1.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test_project/blabla.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_project/blabla.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,59 +15,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test_project/blabla.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
+            <state relative-caret-position="172">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/intro.md">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test_project/round_A_1.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state relative-caret-position="375">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input_files/large_output.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input_files/output.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input_files/A-small-practice.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-939" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test_project/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -87,14 +69,16 @@
         <option value="$PROJECT_DIR$/src/test_project/clj_test_scripts/blabla.clj" />
         <option value="$PROJECT_DIR$/src/test_project/core.clj" />
         <option value="$PROJECT_DIR$/doc/intro.md" />
+        <option value="$PROJECT_DIR$/src/test_project/round_A.clj" />
         <option value="$PROJECT_DIR$/src/test_project/blabla.clj" />
+        <option value="$PROJECT_DIR$/src/test_project/round_A_1.clj" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="878" />
+    <option name="width" value="1233" />
+    <option name="height" value="816" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -102,6 +86,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -120,25 +105,37 @@
               <item name="test_project" type="462c0819:PsiDirectoryNode" />
               <item name="input_files" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="test_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test_project" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553433676476" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553503864487" />
+    <property name="cursive.last.file.extension./Users/maxthone/Documents/Personal/Clojure_projects/test_project/src" value="clj" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/input_files/qual_2017" />
       <recent name="$PROJECT_DIR$/src/test_project" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1553201045790">{:repl-history {:ide [], :local [{:command &quot;(def F 2)\n(def P \&quot;+-+++--\&quot;)\n(println (flippin_pancakes P F 0))&quot;, :offset 62, :ns &quot;user&quot;} {:command &quot;      (println idx)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(defn flipping_pancakes\n  [P F flips]\n  (let [\n        p_array (vec P)\n        idx (get_minus_index p_array)\n        ]\n  (if (AllPlus? (p_array))\n    (println flips)\n    (if (&gt; (+ idx F) (count p_array))\n      (flipping_pancakes (one_pancake_flip P F) F (inc flips))))))\n\n\n(def F 2)\n(def P \&quot;+-+++--\&quot;)\n(println (flippin_pancakes P F 0))&quot;, :offset 335, :ns &quot;user&quot;} {:command &quot;(defn flipping_pancakes\n  [P F flips]\n  (let [\n        p_array (vec P)\n        idx (get_minus_index p_array)\n        ]\n  (if (AllPlus? (p_array))\n    (println flips)\n    (if (&gt; (+ idx F) (count p_array))\n      (flipping_pancakes (one_pancake_flip P F) F (inc flips))))))&quot;, :offset 270, :ns &quot;user&quot;} {:command &quot;(defn flipping_pancakes\n  [P F flips]\n  (let [\n        p_array (vec P)\n        idx (get_minus_index p_array)\n        ]\n  (if (AllPlus? (p_array))\n    (println flips)\n    (if (&gt; (+ idx F) (count p_array))\n      (println \&quot;IMPOSSIBLE\&quot;)\n      (flipping_pancakes (one_pancake_flip P F) F (inc flips))))))&quot;, :offset 299, :ns &quot;user&quot;} {:command &quot;(defn flipping_pancakes\n  [P F flips]\n  (let [\n        p_array (vec P)\n        idx (get_minus_index p_array)\n        ]\n  (if (AllPlus? p_array)\n    (println flips)\n    (if (&gt; (+ idx F) (count p_array))\n      (println \&quot;IMPOSSIBLE\&quot;)\n      (flipping_pancakes (one_pancake_flip P F) F (inc flips))))))&quot;, :offset 297, :ns &quot;user&quot;} {:command &quot;(def F 2)\n(def P \&quot;+-+++--\&quot;)\n(println (flipping_pancakes P F 0))&quot;, :offset 63, :ns &quot;user&quot;} {:command &quot;(def F 2)\n(def P \&quot;--+++--\&quot;)\n(println (flipping_pancakes P F 0))&quot;, :offset 63, :ns &quot;user&quot;} {:command &quot;(defn flipping_pancakes\n  [P F flips]\n  (let [\n        p_array (vec P)\n        idx (get_minus_index p_array)\n        ]\n    (println p_array)\n  (if (AllPlus? p_array)\n    (println flips)\n    (if (&gt; (+ idx F) (count p_array))\n      (println \&quot;IMPOSSIBLE\&quot;)\n      (flipping_pancakes (one_pancake_flip P F) F (inc flips))))))&quot;, :offset 319, :ns &quot;user&quot;} {:command &quot;(defn flipping_pancakes\n  [P F flips]\n  (let [\n        p_array (vec P)\n        idx (get_minus_index p_array)\n        ]\n    (println p_array)\n  (if (AllPlus? p_array)\n    (println flips)\n    (if (&gt; (+ idx F) (count p_array))\n      (println \&quot;IMPOSSIBLE\&quot;)\n      (flipping_pancakes (one_pancake_flip P F) F (inc flips))))))\n\n\n(def F 2)\n(def P \&quot;--+++--\&quot;)\n(println (flipping_pancakes P F 0))&quot;, :offset 385, :ns &quot;user&quot;} {:command &quot;(def F 2)\n(def P \&quot;+-+++--+-\&quot;)\n(println (flipping_pancakes P F 0))&quot;, :offset 65, :ns &quot;user&quot;} {:command &quot;(println (.indexOf [1 2 3 4 5 1] 9))&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(require '[clojure.java.io :as io])&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(sample)&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(slurp \&quot;input_files/A-small-practice.in\&quot;)&quot;, :offset 41, :ns &quot;user&quot;} {:command &quot;(def p \n  (slurp \&quot;input_files/A-small-practice.in\&quot;))&quot;, :offset 52, :ns &quot;user&quot;} {:command &quot;(println p)&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(defn Example []\n  (with-open [rdr (clojure.java.io/reader \&quot;Example.txt\&quot;)]\n    (reduce conj [] (line-seq rdr))))\n(Example)&quot;, :offset 122, :ns &quot;user&quot;} {:command &quot;(defn Example []\n  (with-open [rdr (clojure.java.io/reader \&quot;input_failes/A-small-practice.in\&quot;)]\n    (reduce conj [] (line-seq rdr))))\n(Example)&quot;, :offset 143, :ns &quot;user&quot;} {:command &quot;(Example)&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(defn Example []\n  (with-open [rdr (clojure.java.io/reader \&quot;input_files/A-small-practice.in\&quot;)]\n    (reduce conj [] (line-seq rdr))))\n(Example)&quot;, :offset 142, :ns &quot;user&quot;} {:command &quot;(map split input_vector \&quot; \&quot;)&quot;, :offset 28, :ns &quot;user&quot;} {:command &quot;(split \&quot;lol does this work\&quot; \&quot; \&quot;)&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(require '[clojure.string :as str])&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(str/split \&quot;lol does this work\&quot; \&quot; \&quot;)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(str/split \&quot;lol does this work\&quot; #\&quot; \&quot;)&quot;, :offset 37, :ns &quot;user&quot;} {:command &quot;(def input_vector (subvec (Example) ))&quot;, :offset 38, :ns &quot;user&quot;} {:command &quot;(def input_vector (Example))&quot;, :offset 28, :ns &quot;user&quot;} {:command &quot;(def input_vector (subvec (Example) 1))&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(println input_vector)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(println (head input_vector))&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(type input_vector)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(subvec input_vector 0 1)&quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(subvec input_vector 0 2)&quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(map str/split input_vector \&quot; \&quot;)&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(defn split_by_space\n  [string_unit]\n  (str/split string_unit #\&quot; \&quot;))&quot;, :offset 68, :ns &quot;user&quot;} {:command &quot;(def split_vector (map split_by_space input_vector))&quot;, :offset 52, :ns &quot;user&quot;} {:command &quot;(println split_vector)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(require pprint\n         )&quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(pprint \&quot; asdf\&quot; \n        )&quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(pprint split_vector)&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(Integer \&quot;45\&quot;)&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(Integer. \&quot;45\&quot;)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(defn solver [P F] (flipping_pancakes P F 0))&quot;, :offset 45, :ns &quot;user&quot;} {:command &quot;(map solver split_vector)&quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(def output_vector (map solver split_vector))&quot;, :offset 45, :ns &quot;user&quot;} {:command &quot;(spit \&quot;output.txt\&quot; output_vector)&quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(def num_vector (range 1 count(input_vector)))&quot;, :offset 46, :ns &quot;user&quot;} {:command &quot;(def num_vector (range 1 (count input_vector)))&quot;, :offset 47, :ns &quot;user&quot;} {:command &quot;(def num_vector (range 1 ( + (count input_vector) 1)))&quot;, :offset 54, :ns &quot;user&quot;} {:command &quot;(pprint num_vector)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(pprint output_vector)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(map str num_vector output_vector)&quot;, :offset 34, :ns &quot;user&quot;} {:command &quot;(map str num_vector \&quot; \&quot; output_vector)&quot;, :offset 38, :ns &quot;user&quot;} {:command &quot;(concat \&quot;lol\&quot; num_vector)&quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(map str \&quot;lol\&quot; num_vector)&quot;, :offset 26, :ns &quot;user&quot;} {:command &quot;(map (constantly \&quot;case\&quot;) num_vector)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(map str (constantly \&quot;case\&quot;) num_vector output_vector)&quot;, :offset 54, :ns &quot;user&quot;} {:command &quot;(map str (constantly \&quot;case\&quot;) num_vector)&quot;, :offset 40, :ns &quot;user&quot;} {:command &quot;num_vector&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(def constantly_case (constantly \&quot;case\&quot;))&quot;, :offset 41, :ns &quot;user&quot;} {:command &quot;(pprint constantly_case)&quot;, :offset 24, :ns &quot;user&quot;} {:command &quot;(map str (repeat (count input_vector) \&quot;case\&quot;) num_vector)&quot;, :offset 57, :ns &quot;user&quot;} {:command &quot;(map str (repeat (count input_vector) \&quot;case \&quot;) num_vector)&quot;, :offset 58, :ns &quot;user&quot;} {:command &quot;(map str\n     (repeat (count input_vector) \&quot;case #\&quot;)\n     num_vector\n     (repeat (count input_vector) \&quot; \&quot;)\n     output_vector)&quot;, :offset 127, :ns &quot;user&quot;} {:command &quot;(map str\n     (repeat (count input_vector) \&quot;case #\&quot;)\n     num_vector\n     (repeat (count input_vector) \&quot;: \&quot;)\n     output_vector)&quot;, :offset 128, :ns &quot;user&quot;} {:command &quot;(defn read_per_line [file_path]\n  (with-open [rdr (clojure.java.io/reader file_path)]\n    (reduce conj [] (line-seq rdr))))\n\n(defn write_per_line[file_path,data]\n  (with-open [w (clojure.java.io/writer file_path :append true)]\n    (.write w (data))\n    ))&quot;, :offset 255, :ns &quot;user&quot;} {:command &quot;(def input_vector (subvec (read_per_line \&quot;input_files/A-small-practice.in\&quot;) 1))&quot;, :offset 79, :ns &quot;user&quot;} {:command &quot;(map str \n     (repeat (count input_vector) \&quot;case #\&quot;) \n     (range 1 ( + (count input_vector) 1)) \n     (repeat (count input_vector) \&quot;: \&quot;) \n     output_vector)&quot;, :offset 159, :ns &quot;user&quot;} {:command &quot;(def output_data (map str\n                      (repeat (count input_vector) \&quot;case #\&quot;) \n                      (range 1 ( + (count input_vector) 1)) \n                      (repeat (count input_vector) \&quot;: \&quot;)\n                      (output_vector)\n                      ))&quot;, :offset 268, :ns &quot;user&quot;} {:command &quot;(def output_data (map str\n                      (repeat (count input_vector) \&quot;case #\&quot;) \n                      (range 1 ( + (count input_vector) 1)) \n                      (repeat (count input_vector) \&quot;: \&quot;)\n                      output_vector\n                      ))&quot;, :offset 266, :ns &quot;user&quot;} {:command &quot;(write_per_line \&quot;input_files/output.txt\&quot; output_data)&quot;, :offset 53, :ns &quot;user&quot;} {:command &quot;(doc doseq)&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(doseq [x output_data] (pprint x))&quot;, :offset 34, :ns &quot;user&quot;} {:command &quot;(map pprint output_data)&quot;, :offset 24, :ns &quot;user&quot;} {:command &quot;(write_lines \&quot;input_files/output.txt\&quot; )&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(defn write_lines [filename data]\n  (with-open [wrt (clojure.java.io/writer filename)]\n    (doseq [x data]\n      (.write wrt x))))&quot;, :offset 130, :ns &quot;user&quot;} {:command &quot;(write_lines \&quot;input_files/output.txt\&quot; output_data)&quot;, :offset 50, :ns &quot;user&quot;} {:command &quot;(defn write_lines [filename data]\n  (with-open [wrt (clojure.java.io/writer filename)]\n    (doseq [x data]\n      (.write wrt (str x \&quot;\\n\&quot;)))))\n\n(write_lines \&quot;input_files/output.txt\&quot; output_data)&quot;, :offset 193, :ns &quot;user&quot;} {:command &quot;(def input_vector (subvec (read_per_line \&quot;input_files/A-large-practice.in\&quot;) 1))&quot;, :offset 79, :ns &quot;user&quot;} {:command &quot;(defn split_by_space\n  [string_unit]\n  (str/split string_unit #\&quot; \&quot;))\n\n(def split_vector (map split_by_space input_vector))\n\n(def output_vector (map solver split_vector))\n\n\n(def output_data (map str\n                      (repeat (count input_vector) \&quot;case #\&quot;)\n                      (range 1 ( + (count input_vector) 1))\n                      (repeat (count input_vector) \&quot;: \&quot;)\n                      output_vector\n                      ))\n\n(defn write_lines [filename data]\n  (with-open [wrt (clojure.java.io/writer filename)]\n    (doseq [x data]\n      (.write wrt (str x \&quot;\\n\&quot;)))))\n\n(write_lines \&quot;input_files/large_output.txt\&quot; output_data)&quot;, :offset 637, :ns &quot;user&quot;} {:command &quot;(defn split_by_space\n  [string_unit]\n  (str/split string_unit #\&quot; \&quot;))\n\n(def split_vector (map split_by_space input_vector))\n\n(def output_vector (map solver split_vector))\n\n\n(def output_data (map str\n                      (repeat (count input_vector) \&quot;case #\&quot;)\n                      (range 1 ( + (count input_vector) 1))\n                      (repeat (count input_vector) \&quot;: \&quot;)\n                      output_vector\n                      ))&quot;, :offset 436, :ns &quot;user&quot;} {:command &quot;(defn write_lines [filename data]\n  (with-open [wrt (clojure.java.io/writer filename)]\n    (doseq [x data]\n      (.write wrt (str x \&quot;\\n\&quot;)))))\n\n(write_lines \&quot;input_files/large_output.txt\&quot; output_data)&quot;, :offset 199, :ns &quot;user&quot;} {:command &quot;(def input_vector (map split_by_space (subvec (read_per_line \&quot;input_files/A-large-practice.in\&quot;) 1)))&quot;, :offset 100, :ns &quot;user&quot;} {:command &quot;output_data&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(defn one_pancake_flip\n  [P F idx]\n  (let [flip (fn [x] (if (= \\- x) \\+ \\-))\n        batch_array (subvec P idx (+ idx F))\n        flip_array (vec (map flip batch_array))]\n    (replace_array P flip_array idx)))\n\n(def P_test (vec \&quot;-+--\&quot;))\n(def F_test 1)\n(def idx 0)\n(def p_output (one_pancake_flip P_test F_test idx))\n(pprint p_output)&quot;, :offset 333, :ns &quot;user&quot;} {:command &quot;(defn one_pancake_flip\n  [P F idx]\n  (let [flip (fn [x] (if (= \\- x) \\+ \\-))\n        batch_array (subvec P idx (+ idx F))\n        flip_array (vec (map flip batch_array))]\n    (pprint flip_array)\n    (replace_array P flip_array idx)))\n\n(def P_test (vec \&quot;-+--\&quot;))\n(def F_test 1)\n(def idx 0)\n(def p_output (one_pancake_flip P_test F_test idx))\n(pprint p_output)&quot;, :offset 357, :ns &quot;user&quot;} {:command &quot;(defn one_pancake_flip\n  [P F idx]\n  (let [flip (fn [x] (if (= \\- x) \\+ \\-))\n        batch_array (subvec P idx (+ idx F))\n        flip_array (vec (map flip batch_array))]\n    (pprint flip_array)\n    (replace_array P flip_array idx)))\n\n(def P_test (vec \&quot;-+--\&quot;))\n(def F_test 2)\n(def idx 0)\n(def p_output (one_pancake_flip P_test F_test idx))\n(pprint p_output)&quot;, :offset 357, :ns &quot;user&quot;} {:command &quot;(defn one_pancake_flip\n  [P F idx]\n  (let [flip (fn [x] (if (= \\- x) \\+ \\-))\n        batch_array (subvec P idx (+ idx F))\n        flip_array (vec (map flip batch_array))]\n    (pprint flip_array)\n    (replace_array P flip_array idx)))\n\n(def P_test (vec \&quot;-+--\&quot;))\n(def F_test 2)\n(def idx 0)\n(def p_output (one_pancake_flip P_test F_test idx))&quot;, :offset 339, :ns &quot;user&quot;} {:command &quot;(defn one_pancake_flip\n  [P F idx]\n  (let [flip (fn [x] (if (= \\- x) \\+ \\-))\n        batch_array (subvec P idx (+ idx F))\n        flip_array (vec (map flip batch_array))]\n    (pprint flip_array)\n    (replace_array P flip_array idx)))&quot;, :offset 233, :ns &quot;user&quot;} {:command &quot;(def P_test (vec \&quot;-+--\&quot;))\n(def F_test 2)\n(def idx 0)\n(def p_output (one_pancake_flip P_test F_test idx))&quot;, :offset 104, :ns &quot;user&quot;} {:command &quot;(defn replace_array\n  [p_array flip_array idx]\n  (if (= (count flip_array) 0)\n    ;; Flip array is empty, so no need to do anything:\n    p_array\n    ;; Flip array contains elements we want to sub:\n    (replace_array (assoc p_array idx (get flip_array 0))\n                   (subvec flip_array 1)\n                   (+ idx 1))))\n\n(defn one_pancake_flip\n  [P F idx]\n  (let [flip (fn [x] (if (= \\- x) \\+ \\-))\n        batch_array (subvec P idx (+ idx F))\n        flip_array (vec (map flip batch_array))]\n    (pprint flip_array)\n    (replace_array P flip_array idx)))\n\n(def P_test (vec \&quot;-+--\&quot;))\n(def F_test 2)\n(def idx 0)\n(def p_output (one_pancake_flip P_test F_test idx))&quot;, :offset 668, :ns &quot;user&quot;} {:command &quot;(p_output)&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(pprint p_output)&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(.indexOf [1 2 3] 3)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(.indexOf [1 2 3] 4)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(= 1 1)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(defn flipping_pancakes\n  [P F flips]\n  (let [idx (.indexOf P \\-)]\n  (if (= idx -1)\n    (str flips)\n    (if (&gt; (+ idx F) (count P))\n      (str \&quot;IMPOSSIBLE\&quot;)\n      (flipping_pancakes (one_pancake_flip P F idx) F (inc flips))))))&quot;, :offset 227, :ns &quot;user&quot;} {:command &quot;(output_data)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(pprint output_data)&quot;, :offset 20, :ns &quot;user&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1553816326130">{:repl-history {:ide [], :local [{:command &quot;(def input_vector (subvec (read_per_line \&quot;input_files/A-large-practice.in\&quot;) 1))&quot;, :offset 79, :ns &quot;user&quot;} {:command &quot;(defn split_by_space\n  [string_unit]\n  (str/split string_unit #\&quot; \&quot;))\n\n(def split_vector (map split_by_space input_vector))\n\n(def output_vector (map solver split_vector))\n\n\n(def output_data (map str\n                      (repeat (count input_vector) \&quot;case #\&quot;)\n                      (range 1 ( + (count input_vector) 1))\n                      (repeat (count input_vector) \&quot;: \&quot;)\n                      output_vector\n                      ))\n\n(defn write_lines [filename data]\n  (with-open [wrt (clojure.java.io/writer filename)]\n    (doseq [x data]\n      (.write wrt (str x \&quot;\\n\&quot;)))))\n\n(write_lines \&quot;input_files/large_output.txt\&quot; output_data)&quot;, :offset 637, :ns &quot;user&quot;} {:command &quot;(defn split_by_space\n  [string_unit]\n  (str/split string_unit #\&quot; \&quot;))\n\n(def split_vector (map split_by_space input_vector))\n\n(def output_vector (map solver split_vector))\n\n\n(def output_data (map str\n                      (repeat (count input_vector) \&quot;case #\&quot;)\n                      (range 1 ( + (count input_vector) 1))\n                      (repeat (count input_vector) \&quot;: \&quot;)\n                      output_vector\n                      ))&quot;, :offset 436, :ns &quot;user&quot;} {:command &quot;(defn write_lines [filename data]\n  (with-open [wrt (clojure.java.io/writer filename)]\n    (doseq [x data]\n      (.write wrt (str x \&quot;\\n\&quot;)))))\n\n(write_lines \&quot;input_files/large_output.txt\&quot; output_data)&quot;, :offset 199, :ns &quot;user&quot;} {:command &quot;(def input_vector (map split_by_space (subvec (read_per_line \&quot;input_files/A-large-practice.in\&quot;) 1)))&quot;, :offset 100, :ns &quot;user&quot;} {:command &quot;output_data&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(defn one_pancake_flip\n  [P F idx]\n  (let [flip (fn [x] (if (= \\- x) \\+ \\-))\n        batch_array (subvec P idx (+ idx F))\n        flip_array (vec (map flip batch_array))]\n    (replace_array P flip_array idx)))\n\n(def P_test (vec \&quot;-+--\&quot;))\n(def F_test 1)\n(def idx 0)\n(def p_output (one_pancake_flip P_test F_test idx))\n(pprint p_output)&quot;, :offset 333, :ns &quot;user&quot;} {:command &quot;(defn one_pancake_flip\n  [P F idx]\n  (let [flip (fn [x] (if (= \\- x) \\+ \\-))\n        batch_array (subvec P idx (+ idx F))\n        flip_array (vec (map flip batch_array))]\n    (pprint flip_array)\n    (replace_array P flip_array idx)))\n\n(def P_test (vec \&quot;-+--\&quot;))\n(def F_test 1)\n(def idx 0)\n(def p_output (one_pancake_flip P_test F_test idx))\n(pprint p_output)&quot;, :offset 357, :ns &quot;user&quot;} {:command &quot;(defn one_pancake_flip\n  [P F idx]\n  (let [flip (fn [x] (if (= \\- x) \\+ \\-))\n        batch_array (subvec P idx (+ idx F))\n        flip_array (vec (map flip batch_array))]\n    (pprint flip_array)\n    (replace_array P flip_array idx)))\n\n(def P_test (vec \&quot;-+--\&quot;))\n(def F_test 2)\n(def idx 0)\n(def p_output (one_pancake_flip P_test F_test idx))\n(pprint p_output)&quot;, :offset 357, :ns &quot;user&quot;} {:command &quot;(defn one_pancake_flip\n  [P F idx]\n  (let [flip (fn [x] (if (= \\- x) \\+ \\-))\n        batch_array (subvec P idx (+ idx F))\n        flip_array (vec (map flip batch_array))]\n    (pprint flip_array)\n    (replace_array P flip_array idx)))\n\n(def P_test (vec \&quot;-+--\&quot;))\n(def F_test 2)\n(def idx 0)\n(def p_output (one_pancake_flip P_test F_test idx))&quot;, :offset 339, :ns &quot;user&quot;} {:command &quot;(defn one_pancake_flip\n  [P F idx]\n  (let [flip (fn [x] (if (= \\- x) \\+ \\-))\n        batch_array (subvec P idx (+ idx F))\n        flip_array (vec (map flip batch_array))]\n    (pprint flip_array)\n    (replace_array P flip_array idx)))&quot;, :offset 233, :ns &quot;user&quot;} {:command &quot;(def P_test (vec \&quot;-+--\&quot;))\n(def F_test 2)\n(def idx 0)\n(def p_output (one_pancake_flip P_test F_test idx))&quot;, :offset 104, :ns &quot;user&quot;} {:command &quot;(defn replace_array\n  [p_array flip_array idx]\n  (if (= (count flip_array) 0)\n    ;; Flip array is empty, so no need to do anything:\n    p_array\n    ;; Flip array contains elements we want to sub:\n    (replace_array (assoc p_array idx (get flip_array 0))\n                   (subvec flip_array 1)\n                   (+ idx 1))))\n\n(defn one_pancake_flip\n  [P F idx]\n  (let [flip (fn [x] (if (= \\- x) \\+ \\-))\n        batch_array (subvec P idx (+ idx F))\n        flip_array (vec (map flip batch_array))]\n    (pprint flip_array)\n    (replace_array P flip_array idx)))\n\n(def P_test (vec \&quot;-+--\&quot;))\n(def F_test 2)\n(def idx 0)\n(def p_output (one_pancake_flip P_test F_test idx))&quot;, :offset 668, :ns &quot;user&quot;} {:command &quot;(p_output)&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(pprint p_output)&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(.indexOf [1 2 3] 3)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(.indexOf [1 2 3] 4)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(= 1 1)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(defn flipping_pancakes\n  [P F flips]\n  (let [idx (.indexOf P \\-)]\n  (if (= idx -1)\n    (str flips)\n    (if (&gt; (+ idx F) (count P))\n      (str \&quot;IMPOSSIBLE\&quot;)\n      (flipping_pancakes (one_pancake_flip P F idx) F (inc flips))))))&quot;, :offset 227, :ns &quot;user&quot;} {:command &quot;(output_data)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(pprint output_data)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(def input_vector\n  (let [split_by_space (fn [x] (str/split x #\&quot; \&quot;))]\n  (map split_by_space (subvec (read_per_line \&quot;input_files/qual_2017/A-small-practice.in\&quot;) 1))))&quot;, :offset 165, :ns &quot;user&quot;} {:command &quot;(pprint \&quot;+\&quot;)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(def line_1 \&quot;G??\&quot;)&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(pprint line_1)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(vec 1 2 3)&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(vector 1 2 3)&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(vector \&quot;--+\&quot;)&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(vec \&quot;--+\&quot;)&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(defn get_first_letter\n  [cake_vector]\n  (let [is_question (fn [x] (= x \\?))]\n    (first (filter (complement is_question) cake_vector))))&quot;, :offset 137, :ns &quot;user&quot;} {:command &quot;(get_first_letter (vec \&quot;G??\&quot;))&quot;, :offset 30, :ns &quot;user&quot;} {:command &quot;(get_first_letter (vec \&quot;G??K\&quot;))&quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(defn get_first_letter\n  [cake_vector]\n  (let [is? (fn [x] (= x \\?))]\n    (first (filter (complement is?) cake_vector))))&quot;, :offset 121, :ns &quot;user&quot;} {:command &quot;(def harder_vec (vec harder_line))&quot;, :offset 34, :ns &quot;user&quot;} {:command &quot;(harder_vec)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(def easy_line \&quot;G??\&quot;) ; GGG\n(def med_line \&quot;G?J?\&quot;) ; GGJJ\n(def harder_line \&quot;G?JK?\&quot;) ; GGJKK\n\n(def easy_vec (vec easy_line))\n(def med_vec (vec med_line))\n(def harder_vec (vec harder_line))&quot;, :offset 186, :ns &quot;user&quot;} {:command &quot;(pprint harder_vec)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(defn get_first_index\n  [cake_vector]\n  (let [is? (fn [x] (= x \\?))]\n    (.indexOf (filter (complement is?) cake_vector))))&quot;, :offset 123, :ns &quot;user&quot;} {:command &quot;(pprint easy_vec)&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(defn get_first_index\n  [cake_vector]\n  (let [is? (fn [x] (= x \\?))]\n    (.indexOf (filter (complement is?) cake_vector)\n              (get_first_letter cake_vector))))&quot;, :offset 168, :ns &quot;user&quot;} {:command &quot;(get_first_index easy_vec)&quot;, :offset 26, :ns &quot;user&quot;} {:command &quot;(defn get_first_index\n  [cake_vector pos]\n  (let [is? (fn [x] (= x \\?))]\n    (.indexOf (filter (complement is?) cake_vector)\n              (get_first_letter cake_vector) pos)))&quot;, :offset 176, :ns &quot;user&quot;} {:command &quot;(get_first_index easy_vec 0)&quot;, :offset 28, :ns &quot;user&quot;} {:command &quot;(defn get_first_index\n  [cake_vector pos]\n  (let [is? (fn [x] (= x \\?))]\n    (index-of (filter (complement is?) cake_vector)\n              (get_first_letter cake_vector))))&quot;, :offset 172, :ns &quot;user&quot;} {:command &quot;(.indexOf easy_vec \\G 1)&quot;, :offset 24, :ns &quot;user&quot;} {:command &quot;(.indexOf easy_vec \\G)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(.indexOf easy_vec \\J)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(doc assoc)&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(.indexOf easy_vec \\?)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(assoc easy_vec (.indexOf easy_vec \\?) \\G)&quot;, :offset 42, :ns &quot;user&quot;} {:command &quot;(defn easy_replace_vector\n  [cake_vector first_letter]\n  (let [is? (fn [x] (= x \\?))]\n    (if (= (count (filter is? cake_vector)) 0)\n      ; no more ? to replace\n      cake_vector\n      (easy_replace_vector \n        (assoc cake_vector \n          (.indexOf cake_vector first_letter) first_letter)\n        first_letter))))&quot;, :offset 320, :ns &quot;user&quot;} {:command &quot;easy_vec&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(defn easy_replace_vector\n  [cake_vector first_letter]\n  (let [is? (fn [x] (= x \\?))]\n    (if (= (count (filter is? cake_vector)) 0)\n      ; no more ? to replace\n      cake_vector\n      (easy_replace_vector\n        (assoc cake_vector\n          (.indexOf cake_vector \\?) first_letter)\n        first_letter))))&quot;, :offset 308, :ns &quot;user&quot;} {:command &quot;(easy_replace_vector easy_vec \\G)&quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(min 2 4)&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(min count(easy_vec) nil)&quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(easy_replace_vector [\\G \\? \\? ])&quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(easy_replace_vector [\\G \\? \\? ] \\G)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(doc dotimes)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(doc subvec)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(subvec [1 2 3 4] 0 2)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(subvec [1 2 3 4] 0 -1)&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(subvec [1 2 3 4] 0 0)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(def test_vector [\\? \\? \\?])&quot;, :offset 28, :ns &quot;user&quot;} {:command &quot;(get_first_letter test_vector)&quot;, :offset 30, :ns &quot;user&quot;} {:command &quot;(count easy_vec)&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(pprint (if (= 2 1) \&quot;check\&quot; \&quot;more check\&quot;))&quot;, :offset 42, :ns &quot;user&quot;} {:command &quot;(max 10 10)&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(vec (diff [1 2 3 4] [1 2 3 4 5]))&quot;, :offset 34, :ns &quot;user&quot;} {:command &quot;(doc diff)&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(doc mapcat)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(def test_vec [\\? \\G \\?])&quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(&gt; 5 4)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(&lt; 5 4)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(- 5 1)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(subvec [1 2 3 4 5 6 ] 0 3)&quot;, :offset 27, :ns &quot;user&quot;} {:command &quot;(subvec [1 2 3 4 5 6] 0 (count [1 2 3 4 5 6]))&quot;, :offset 46, :ns &quot;user&quot;} {:command &quot;(defn get_line_segment\n  [cake_vector]\n  (let [is? (fn [x] (= x \\?))\n        idx_? (.indexOf cake_vector \\?)\n        letter (first (filter (complement is?) cake_vector))\n        second_letter (second (filter(complement is?) cake_vector))\n        idx_letter (.indexOf cake_vector letter)\n        idx_next_letter (.indexOf cake_vector second_letter)\n        begin_idx (if (&lt; idx_? idx_letter) idx_? (- idx_? 1))\n        end_idx (if (= -1 idx_next_letter) (count cake_vector) idx_next_letter)\n        ]\n    (subvec cake_vector begin_idx end_idx)\n    ))&quot;, :offset 549, :ns &quot;user&quot;} {:command &quot;(get_line_segment [\\? \\G \\? \\? \\J \\?])&quot;, :offset 38, :ns &quot;user&quot;} {:command &quot;(get_line_segment [\\? \\G \\? \\? \\?])&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(get_line_segment [\\G \\? \\J \\? \\?])&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(defn get_line_segment\n  [cake_vector]\n  (let [is? (fn [x] (= x \\?))\n        idx_? (.indexOf cake_vector \\?)\n        letter (first (filter (complement is?) cake_vector))\n        next_letter (second (filter(complement is?) (subvec cake_vector idx_? (count cake_vector))))\n        idx_letter (.indexOf cake_vector letter)\n        idx_next_letter (.indexOf cake_vector next_letter)\n        begin_idx (if (&lt; idx_? idx_letter) idx_? (- idx_? 1))\n        end_idx (if (= -1 idx_next_letter) (count cake_vector) idx_next_letter)]\n    (subvec cake_vector begin_idx end_idx)))&quot;, :offset 566, :ns &quot;user&quot;} {:command &quot;(get_line_segment [\\G \\G \\J \\? \\?])&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(defn get_line_segment\n  [cake_vector]\n  (let [is? (fn [x] (= x \\?))\n        idx_? (.indexOf cake_vector \\?)\n        letter (first (filter (complement is?) cake_vector))\n        next_letter (second (filter(complement is?) (subvec cake_vector idx_? (count cake_vector))))\n        idx_letter (.indexOf cake_vector letter)\n        idx_next_letter (.indexOf cake_vector next_letter)\n        begin_idx (if (&lt; idx_? idx_letter) idx_? (- idx_? 1))\n        end_idx (if (= -1 idx_next_letter) (count cake_vector) idx_next_letter)]\n    (pprint next_letter)\n    (pprint idx_next_letter)\n    (subvec cake_vector begin_idx end_idx)))&quot;, :offset 620, :ns &quot;user&quot;} {:command &quot;(defn get_line_segment\n  [cake_vector]\n  (let [is? (fn [x] (= x \\?))\n        idx_? (.indexOf cake_vector \\?)\n        letter (first (filter (complement is?) cake_vector))\n        next_letter (first (filter(complement is?) (subvec cake_vector idx_? (count cake_vector))))\n        idx_letter (.indexOf cake_vector letter)\n        idx_next_letter (.indexOf cake_vector next_letter)\n        begin_idx (if (&lt; idx_? idx_letter) idx_? (- idx_? 1))\n        end_idx (if (= -1 idx_next_letter) (count cake_vector) idx_next_letter)]\n    (pprint next_letter)\n    (pprint idx_next_letter)\n    (subvec cake_vector begin_idx end_idx)))&quot;, :offset 619, :ns &quot;user&quot;} {:command &quot;(get_line_segment [\\G \\G \\J \\? \\? \\L \\?])&quot;, :offset 41, :ns &quot;user&quot;} {:command &quot;(defn get_line_segment\n  [cake_vector]\n  (let [is? (fn [x] (= x \\?))\n        idx_? (.indexOf cake_vector \\?)\n        letter (first (filter (complement is?) cake_vector))\n        next_letter (first (filter(complement is?) (subvec cake_vector idx_? (count cake_vector))))\n        idx_letter (.indexOf cake_vector letter)\n        idx_next_letter (.indexOf cake_vector next_letter)\n        begin_idx (if (&lt; idx_? idx_letter) idx_? (- idx_? 1))\n        end_idx (if (= -1 idx_next_letter) (count cake_vector) idx_next_letter)]\n    (subvec cake_vector begin_idx end_idx)))&quot;, :offset 565, :ns &quot;user&quot;} {:command &quot;(defn get_line_segment\n  [cake_vector]\n  (let [is? (fn [x] (= x \\?))\n        idx_? (.indexOf cake_vector \\?)\n        letter (first (filter (complement is?) cake_vector))\n        next_letter (first (filter(complement is?) (subvec cake_vector idx_? (count cake_vector))))\n        idx_letter (.indexOf cake_vector letter)\n        idx_next_letter (.indexOf cake_vector next_letter)\n        begin_idx (if (&lt; idx_? idx_letter) idx_? (- idx_? 1))\n        end_idx (if (= -1 idx_next_letter) (count cake_vector) idx_next_letter)]\n    [begin_idx end_idx letter]))&quot;, :offset 553, :ns &quot;user&quot;} {:command &quot;(conj [[1 2 3]] 1 2)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(conj [1 2 3] 1 2)&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(conj [[1 2 3]] [1 2])&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(conj [1 2 3] (1 2))&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(conj [1 2 3] '(1 2))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(conj [1 2 3] [1 2])&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(get [1 2 3] 1)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(subvec [1 2 3] 0 2)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(subvec [1 2 3] 3 3)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(defn get_replace_data\n  [cake_vector]\n  (let [is? (fn [x] (= x \\?))\n        start_idx (.indexOf cake_vector \\?)\n        letter (if (= 0 start_idx)\n                 (first (filter (complement is?) cake_vector))\n                 (get cake_vector (- start_idx 1)))\n        idx_letter (.indexOf cake_vector letter)\n        next_letter (first\n                      (filter(complement is?)\n                             (subvec cake_vector (+ (max start_idx idx_letter) 1)\n                                     (count cake_vector))))\n        idx_next_letter (.indexOf cake_vector next_letter)\n        end_idx (if (= -1 idx_next_letter) (count cake_vector) idx_next_letter)]\n    [start_idx end_idx letter]))&quot;, :offset 699, :ns &quot;user&quot;} {:command &quot;(print final_vec)&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(count test_pie)&quot;, :offset 16, :ns &quot;user&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -199,7 +196,7 @@
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15808298" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -208,15 +205,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32951653" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.7070117" side_tool="true" weight="0.32951653" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.7070117" side_tool="true" weight="0.32872927" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" sideWeight="0.49928468" visible="true" weight="0.36386767" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.36133602" weight="0.32951653" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.35897437" weight="0.32951653" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="REPL" order="10" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.28625953" />
+      <window_info active="true" anchor="bottom" id="REPL" order="10" sideWeight="0.64102566" side_tool="true" visible="true" weight="0.22773537" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" />
@@ -246,23 +243,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input_files/A-large-practice.in">
+    <entry file="file://$PROJECT_DIR$/input_files/qual_2017/A-large-practice.in">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1144" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test_project/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input_files/large_output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/intro.md">
@@ -272,22 +255,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input_files/A-small-practice.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-939" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/input_files/qual_2017/large_output.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/input_files/output.txt">
+    <entry file="file://$PROJECT_DIR$/input_files/qual_2017/output.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
           <caret line="100" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/input_files/qual_2017/A-small-practice.in">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test_project/round_A.clj" />
+    <entry file="file://$PROJECT_DIR$/src/test_project/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test_project/blabla.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
+        <state relative-caret-position="172">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test_project/round_A_1.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
         </state>
       </provider>
     </entry>

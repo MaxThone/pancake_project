@@ -12,17 +12,23 @@
     (replace_array (assoc p_array idx (get flip_array 0))
                    (subvec flip_array 1)
                    (+ idx 1))))
+; Idee: Hou een soort 'flip mode bij'.
+(defn flip
+  [x]
+  (if (= \- x) \+ \-))
+
+(defn flip-array
+  [P F idx]
+  (vec (map flip (subvec P idx (+ idx F)))))
 
 (defn new_flipping_pancakes
   [P F flips]
-  (let [idx (.indexOf P \-)
-        flip (fn [x] (if (= \- x) \+ \-))
-        flip_array (fn [P F idx] (vec (map flip (subvec P idx (+ idx F)))))]
+  (let [idx (.indexOf P \-)]
     (if (= idx -1)
       (str flips)
       (if (> (+ idx F) (count P))
         (str "IMPOSSIBLE")
-        (new_flipping_pancakes (replace_array P (flip_array P F idx) idx) F (inc flips))))))
+        (new_flipping_pancakes (replace_array P (flip-array P F idx) idx) F (inc flips))))))
 
 ; FUNCTIONS HELPING WITH READING/WRITING ETC.
 
