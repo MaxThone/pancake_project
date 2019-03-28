@@ -25,8 +25,6 @@
         end_idx (if (= -1 idx_next_letter) (count cake_vector) idx_next_letter)]
     [start_idx end_idx letter]))
 
-
-; do not implement the case with all ?
 (defn replace_whole_line
   [cake_vector]
   (let [idx_? (.indexOf cake_vector \?)
@@ -36,41 +34,6 @@
     (replace_whole_line
       (apply replace_with_letter (conj replace_data cake_vector))))))
 
-; We assume that cake vector has at least one letter;
-; else we already take care of it somewhere else
-; else it will not even enter the function
-; so two situations;
-; ? comes before letter
-; Then we want ? up until the first letter
-; letter comes before ?
-; then we want the letter before the ?
-; and go up until end of vector or next letter.
-
-; shit we still need to do like:
-; [\G \G \J \? \?] vs
-; [\? \G \? \J \?]
-; next letter idx =
-
-; NOTE: Empty lines can just be copies of other lines.
-
-; If no ? then return cake_vector
-; Else we need to: get first letter
-; Grab start of vector until next letter OR end of line
-; put that in segment
-(def test_vec [\K \J \? \G \? \M \? \? \Z \?])
-
-(def final_vec (replace_whole_line test_vec))
-(print final_vec)
-
-; so how do we handle this for multiple lines?
-; We need to handle one case: What if a line is only question marks?
-; And then: What if the question marks arrives first?
-; What if there are 10 lines of question marks and just one line with a letter?
-; Case 1: Two lines and no question marks
-; Case 2: Basically it should be this
-; have a vector of vectors, which we can probably denote.
-; So we assume we get the following format:
-; [[line_1][line_2][line_3]]
 (def test_pie [[\? \? \? \?] [\K \? \J \?] [\? \? \? \?] [\? \? \? \?] [\? \? \L \?] [\? \? \? \?]])
 
 (def plus-five (partial + 5))

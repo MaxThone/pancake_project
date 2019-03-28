@@ -21,6 +21,7 @@
   [P F idx]
   (vec (map flip (subvec P idx (+ idx F)))))
 
+; zet index in the recursion: Je gaat nu voor elke pannekoek de hele array door
 (defn new_flipping_pancakes
   [P F flips]
   (let [idx (.indexOf P \-)]
