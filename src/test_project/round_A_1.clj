@@ -36,11 +36,6 @@
 
 (def test_pie [[\? \? \? \?] [\K \? \J \?] [\? \? \? \?] [\? \? \? \?] [\? \? \L \?] [\? \? \? \?]])
 
-(def plus-five (partial + 5))
-(plus-five 10) ; => (+ 5 10)
-
-(filter odd? '(2 4 6  8 10))
-
 (defn fill_pie
   [pie idx state]
   (let
@@ -55,3 +50,41 @@
             (assoc rest-of-pie idx (get rest-of-pie (inc idx))))
           (fill_pie (assoc pie idx state) (inc idx) state))
         (fill_pie (assoc pie idx (replace_whole_line cake_vector)) (inc idx) (replace_whole_line cake_vector))))))
+
+(let [c (cons 37 nil)
+      b (cons 99 c)
+      a (cons 12 b)]
+  a)
+
+(cons 12 (cons 99 (cons 37 nil)))
+
+
+(= foo foo)
+
+(cons 'if (cons (cons '= (cons 'idx (cons (cons 'count (cons 'pie nil)) nil))) (cons 'pie (cons 3 nil))))
+
+(def foo 10)
+
+
+
+(defn mess-1
+  [head & tail]
+  (when head
+    (cons (if (= 1 head) 10 (if (seq? head) (mess-1 head))) (mess-1 tail))))
+
+(defmacro trololo
+  [& body]
+  `(do ~@(mess-1 body)))
+
+
+(macroexpand-1 '(trololo + 1 2))
+
+(eval (cons (symbol "+") (cons 3 (cons 3 nil))))
+
+(1 2 3)
+
+; functions to use more:
+; partial
+; use the clojure version of .indexOf
+; Use sequences (= linked list) instead of vector
+;
