@@ -30,7 +30,6 @@
       (if (> (+ idx F) (count P))
         (str "IMPOSSIBLE")
         (new_flipping_pancakes (replace_array P (flip-array P F idx) idx) F (inc flips))))))
-
 ; FUNCTIONS HELPING WITH READING/WRITING ETC.
 
 ; Read files:
@@ -82,3 +81,5 @@
                       output_vector))
 
 (write_lines "input_files/qual_2017/large_output.txt" output_data)
+
+
