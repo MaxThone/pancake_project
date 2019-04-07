@@ -1,0 +1,6 @@
+(ns gcj-2017-0-a.core)
+
+(defn foo
+  "I don't do a whole lot."
+  [x]
+  (println x "Hello, World!"))
