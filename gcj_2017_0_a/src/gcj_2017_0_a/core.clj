@@ -1,6 +1,10 @@
 (ns gcj-2017-0-a.core)
 
 (require '[clojure.string :as str])
+; GENERAL COMMENTS ON CODE
+; - you should try to just work with lists, not necessarily with vectors.
+; - reading/writing files does not necessarily have to be done with java read/write, 
+;   can just be done with clojure read-line
 
 ; CORE FUNCTIONS
 (defn replace_array
@@ -12,7 +16,7 @@
     (replace_array (assoc p_array idx (get flip_array 0))
                    (subvec flip_array 1)
                    (+ idx 1))))
-; Idee: Hou een soort 'flip mode bij'.
+
 (defn flip
   [x]
   (if (= \- x) \+ \-))
@@ -21,63 +25,71 @@
   [P F idx]
   (vec (map flip (subvec P idx (+ idx F)))))
 
-; zet index in the recursion: Je gaat nu voor elke pannekoek de hele array door
-(defn new_flipping_pancakes
+(defn flipping-pancakes
   [P F flips]
   (let [idx (.indexOf P \-)]
     (if (= idx -1)
       (str flips)
       (if (> (+ idx F) (count P))
         (str "IMPOSSIBLE")
-        (new_flipping_pancakes (replace_array P (flip-array P F idx) idx) F (inc flips))))))
+        (flipping-pancakes (replace_array P (flip-array P F idx) idx) F (inc flips))))))
+
 ; FUNCTIONS HELPING WITH READING/WRITING ETC.
 
 ; Read files:
-(defn read_per_line [file_path]
+(defn read-per-line [file_path]
   (with-open [rdr (clojure.java.io/reader file_path)]
     (reduce conj [] (line-seq rdr))))
 
 ; Write files
-(defn write_lines [filename data]
+(defn write-lines [filename data]
   (with-open [wrt (clojure.java.io/writer filename)]
     (doseq [x data]
       (.write wrt (str x "\n")))))
 
+; wrapper for flipping-pancakes to work with input files
 (defn solver
   [vector_unit]
   (let [P (vec (first vector_unit))
         F (Integer. (second vector_unit))
-        ] (new_flipping_pancakes P F 0)))
+        ] (flipping-pancakes P F 0)))
 
 ; TEST CASES
+(defn sample-solver
+  [P-str F]
+  (let [P (vec P-str)]
+    (flipping-pancakes P F 0)))
+
 (defn sample
   []
-  (println (new_flipping_pancakes "-+--" 1 0))
-  (println (new_flipping_pancakes "-+--" 2 0))
-  (println (new_flipping_pancakes "-+--" 1 0))
-  (println (new_flipping_pancakes "-+--" 1 0))
-  (println (new_flipping_pancakes "-+--" 1 0))
-  (println (new_flipping_pancakes "-+--" 3 0))
-  (println (new_flipping_pancakes "-+--" 4 0))
-  (println (new_flipping_pancakes "-+--" 1 0))
-  (println (new_flipping_pancakes "-+--+--++-----+" 3 0))
-  (println (new_flipping_pancakes "-+--+++---+++" 3 0))
-  (println (new_flipping_pancakes "-+--" 2 0))
-  (println (new_flipping_pancakes "-+--+--+" 1 0))
-  (println (new_flipping_pancakes "-+--+--+" 3 0))
-  (println (new_flipping_pancakes "-+--++-+" 3 0))
+  (println (sample-solver "-+--" 1))
+  (println (sample-solver "-+--" 2))
+  (println (sample-solver "-+--" 1))
+  (println (sample-solver "-+--" 1))
+  (println (sample-solver "-+--" 1))
+  (println (sample-solver "-+--" 3))
+  (println (sample-solver "-+--" 4))
+  (println (sample-solver "-+--" 1))
+  (println (sample-solver "-+--+--++-----+" 3))
+  (println (sample-solver "-+--+++---+++" 3))
+  (println (sample-solver "-+--" 2))
+  (println (sample-solver "-+--+--+" 1))
+  (println (sample-solver "-+--+--+" 3))
+  (println (sample-solver "-+--++-+" 3))
   )
+
+(sample)
+
 ; READ FROM FILE, WRITE SOLUTION TO FILE
-(def input_vector
+(def input-vector
   (let [split_by_space (fn [x] (str/split x #" "))]
-    (map split_by_space (subvec (read_per_line "input/A-small-practice.in") 1))))
+    (map split_by_space (subvec (read-per-line "data/input/A-large-practice.in") 1))))
 
-(def output_vector (map solver input_vector))
+(def output-vector (map solver input-vector))
 
-(def output_data (map str
-                      (repeat (count input_vector) "case #")
-                      (range 1 ( + (count input_vector) 1))
-                      (repeat (count input_vector) ": ")
-                      output_vector))
-
-(write_lines "data/output/large_output.txt" output_data)
+(def output-data (map str
+                      (repeat (count input-vector) "case #")
+                      (range 1 ( + (count input-vector) 1))
+                      (repeat (count input-vector) ": ")
+                      output-vector))
+(write-lines "data/output/large_output.txt" output-data)

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a32876c3-7e76-4af0-9251-34f818f1ad86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../gcj_2017_1_a/data/A-small-practice.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gcj_2017_1_a/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gcj_2017_1_a/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gcj_2017_1_a/src/gcj_2017_1_a/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../gcj_2017_1_a/src/gcj_2017_1_a/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gcj_2017_0_a/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcj_2017_0_a/core.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gcj_2017_0_a/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="207">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -38,10 +35,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="14" />
     <option name="y" value="22" />
-    <option name="width" value="1455" />
-    <option name="height" value="878" />
+    <option name="width" value="1840" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -49,6 +45,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -56,6 +53,17 @@
             <path>
               <item name="gcj_2017_0_a" type="b2602c69:ProjectViewProjectNode" />
               <item name="gcj_2017_0_a" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gcj_2017_0_a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gcj_2017_0_a" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gcj_2017_0_a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gcj_2017_0_a" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gcj_2017_0_a" type="b2602c69:ProjectViewProjectNode" />
@@ -72,12 +80,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554807746304" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554812542924" />
   </component>
+  <component name="ReplState" timestamp="1554812509935">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -90,7 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Clojure REPL.gcj_2017_0_a">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -109,6 +117,38 @@
       <module name="" />
       <method v="2" />
     </configuration>
+    <configuration name="gcj_2017_0_a" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <module name="gcj_2017_0_a" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="gcj_2017_0_a" />
+      <setting name="path" value="$PROJECT_DIR$/src/gcj_2017_0_a/core.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/gcj_2017_0_a" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Clojure Application.core" />
+      <item itemvalue="Clojure REPL.gcj_2017_0_a" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure Application.core" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -124,55 +164,45 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="22" width="1455" height="878" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1606511" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122470714" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32951653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5484558" visible="true" weight="0.25841585" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="REPL" order="10" sideWeight="0.4515442" side_tool="true" visible="true" weight="0.25841585" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="REPL" order="6" side_tool="true" />
-      <window_info anchor="right" id="Leiningen" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Leiningen" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gcj_2017_0_a/core.clj</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/gcj_2017_0_a/blabla.clj" />
     <entry file="file://$PROJECT_DIR$/src/gcj_2017_0_a/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        <state relative-caret-position="207">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
