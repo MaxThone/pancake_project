@@ -92,4 +92,9 @@
                       (range 1 ( + (count input-vector) 1))
                       (repeat (count input-vector) ": ")
                       output-vector))
-(write-lines "data/output/large_output.txt" output-data)
+
+; so arguments in main
+; Can then do for example (see below):
+; lein run "data/output/test_large_output.txt"
+(defn -main [output_path]
+(write-lines output_path output-data))

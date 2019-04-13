@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89128d46-eb3f-4fbc-bc6e-4656cb8dc775" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/A-small-practice.in" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gcj_2017_0_a/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gcj_2017_0_a/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gcj_2017_0_a/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../gcj_2017_0_a/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gcj_2017_0_a/src/gcj_2017_0_a/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../gcj_2017_0_a/src/gcj_2017_0_a/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gcj_2017_1_a/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcj_2017_1_a/core.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,12 +17,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gcj_2017_1_a/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="361">
+              <caret line="120" column="47" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/A-large-practice.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1155">
+              <caret line="77" column="25" lean-forward="true" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/test-output.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2093" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/one-test-case.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/A-small-practice.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -32,14 +69,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/data/one-test-case.in" />
+        <option value="$PROJECT_DIR$/data/test-output.in" />
         <option value="$PROJECT_DIR$/src/gcj_2017_1_a/core.clj" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="221" />
-    <option name="y" value="54" />
-    <option name="width" value="940" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="359" />
+    <option name="y" value="94" />
+    <option name="width" value="1440" />
     <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,13 +88,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="gcj_2017_1_a" type="b2602c69:ProjectViewProjectNode" />
               <item name="gcj_2017_1_a" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gcj_2017_1_a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gcj_2017_1_a" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gcj_2017_1_a" type="b2602c69:ProjectViewProjectNode" />
@@ -72,8 +116,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554999034666" />
+  </component>
+  <component name="ReplState" timestamp="1554999325150">{:repl-history {:ide [], :local [{:command &quot;(defn Walk-inner\n  [vec idx state]\n  (iprintln \&quot;----\&quot;)\n  (iprintln vec)\n  (iprintln idx)\n  (iprintln state)\n  (if (and (vector? vec) (&lt; idx (count vec)))\n    (let [is_q (partial = \\?)\n          element (get vec idx)\n          vector_flag (vector? element)\n          has_no_info (if vector_flag (every? is_q element) (is_q element))\n          ]\n      (iprintln \&quot;aaa\&quot;)\n      (if has_no_info\n        (if (= state nil)\n          (let [rest-of-vec (Walk vec (inc idx) state)]\n            (iprintln \&quot;bbb\&quot;)\n            (assoc rest-of-vec idx (get rest-of-vec (inc idx))))\n          (do (iprintln \&quot;ccc\&quot;)\n              (Walk (assoc vec idx state) (inc idx) state)))\n        (let [replace_element (Walk element 0 nil)]\n          (iprintln \&quot;ddd\&quot;)\n          (Walk (assoc vec idx replace_element) (inc idx) replace_element))))\n    (do (iprintln \&quot;eee\&quot;) vec)))\n\n; wrapper around walk-inner that lets us use iprint. Basically a decorator.\n(defn Walk\n  [&amp; args]\n  (do\n    (let [old-indent indent]\n      (def indent (inc indent))\n      (let [result (apply Walk-inner args)]\n        (def indent old-indent)\n        result))))&quot;, :offset 1106, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(println (Walk-inner [[\\N \\?] [\\? \\L]] 0 nil))&quot;, :offset 46, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(doc read-lines)&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(doc read-line)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(read-string \&quot;5550222\&quot;)&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;\n(def p (read-string \&quot;balblastring\&quot;))\n(pprint p)&quot;, :offset 48, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;\n(def p (read-string \&quot;balblastring\&quot;))\n(printpl p)&quot;, :offset 49, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;\n(def p (read-string \&quot;balblastring\&quot;))\n(println p)&quot;, :offset 49, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(first \&quot;9 9\&quot;)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(Integer (first \&quot;9 9\&quot;))&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(Integer/parseInt (first \&quot;9 9\&quot;))&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(read-string (\&quot;9 9\&quot;))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(read-string (\&quot;9 ww9\&quot;))&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(read-string (\&quot;9\&quot;))&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(read-string \&quot;9\&quot;)&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(number? (read-string \&quot;9\&quot;))&quot;, :offset 27, :ns &quot;user&quot;} {:command &quot;(integer? (read-string \&quot;9\&quot;))&quot;, :offset 28, :ns &quot;user&quot;} {:command &quot;(integer? (read-string \&quot;9 9\&quot;))&quot;, :offset 30, :ns &quot;user&quot;} {:command &quot;(read-string \&quot;9 9\&quot;)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(doc read-string)&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(def init_vec [])\n(println (conj init_vec [\\a \\b]))&quot;, :offset 51, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;\n(def init_vec [])\n(print (conj init_vec [\\a \\b]))&quot;, :offset 50, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;\n(def init_vec [])\n(def lol (conj init_vec [\\a \\b]))\n(print lol)&quot;, :offset 64, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(conj [] [\\a \\b])&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(doc dotimes)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(dotimes [5] (println 4))&quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(dotimes [i 5] (println i))&quot;, :offset 27, :ns &quot;user&quot;} {:command &quot;(vec \&quot;hahaha\&quot;)&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;*in*&quot;, :offset 4, :ns &quot;user&quot;} {:command &quot;(read-line)&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(subvec [1 2 3] 1 )&quot;, :offset 19, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(subvec [2 3] 1 )&quot;, :offset 17, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(subvec [3] 1 )&quot;, :offset 15, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(count [])&quot;, :offset 10, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(count [1])&quot;, :offset 11, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(subvec [2 3] 0 )&quot;, :offset 17, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(subvec [2 3] 0 1)&quot;, :offset 18, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(get [1 2 3] 0)&quot;, :offset 15, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(print str [\\G \\A \\C])&quot;, :offset 22, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(str [\\G \\A \\C])&quot;, :offset 16, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(map str [\\G \\A \\C])&quot;, :offset 20, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(require '[clojure.string :as str])&quot;, :offset 35, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(join (map str [\\G \\A \\C]))&quot;, :offset 27, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(clojure.string/join (map str [\\G \\A \\C]))&quot;, :offset 42, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(get [[\\G \\A]] 0)&quot;, :offset 17, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(doc do)&quot;, :offset 8, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(do (println [\\a])(println [\\b]))&quot;, :offset 33, :ns &quot;gcj-2017-1-a.core&quot;} {:command &quot;(first [0 1 2])&quot;, :offset 15, :ns &quot;gcj-2017-1-a.core&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -105,6 +154,17 @@
       <module name="" />
       <method v="2" />
     </configuration>
+    <configuration name="gcj_2017_1_a" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <module name="gcj_2017_1_a" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -120,9 +180,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="221" y="54" width="940" height="878" extended-state="0" />
+    <frame x="359" y="94" width="1440" height="878" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494432" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16738197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -136,34 +197,90 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.46423462" visible="true" weight="0.39440203" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="REPL" order="10" sideWeight="0.53576535" side_tool="true" visible="true" weight="0.39440203" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="REPL" order="6" side_tool="true" />
-      <window_info anchor="right" id="Leiningen" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Leiningen" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16738197" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.46494994" visible="true" weight="0.39440203" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="REPL" order="10" sideWeight="0.5350501" side_tool="true" visible="true" weight="0.39440203" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Leiningen" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/gcj_2017_1_a/round_A_1.clj">
+    <entry file="file://$PROJECT_DIR$/src/gcj_2017_1_a/round_A_1.clj" />
+    <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="63" selection-end-column="18" />
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/A-small-practice.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/one-test-case.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gcj_2017_1_a/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="361">
+          <caret line="120" column="47" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/A-large-practice.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="25" lean-forward="true" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test-output.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2093" />
       </provider>
     </entry>
   </component>
